@@ -1,3 +1,8 @@
+/*
+html { 
+  background:  url(https://media.giphy.com/media/T5jf3Pa89f5bG/giphy.gif) no-repeat center center fixed; 
+  background-size: cover;
+}*/
 
 body {
 	background-color: black;
@@ -111,13 +116,26 @@ h3 {
 	color: gray;
 }
 
+#animated-gif-container {
+  /*    
+  background-image:url(http://winnerhun.uw.hu/vigyorpofa.gif);
+  background-repeat:no-repeat;
+  */
+        
+  width:100%;
+  /*height:48px;*/    
+  
+  background: #e0ffc7 url(https://media.giphy.com/media/T5jf3Pa89f5bG/giphy.gif) 50% 0 no-repeat center center;  
+}
+
 #slide1 {
 	width:100%;
 	/*background: url('http://goseelivemusic.co/wp-content/uploads/2016/12/rtj3.png') 50% 0 no-repeat fixed;*/
-	background: url('https://media.giphy.com/media/T5jf3Pa89f5bG/giphy.gif') 50% 0 no-repeat fixed;
-	/*background: url('giphy.gif') 50% 0 no-repeat fixed;*/
+	/*background: url('https://giphy.com/gifs/killer-mike-T5jf3Pa89f5bG/fullscreen') 50% 0 no-repeat fixed;*/
+	/*background: url('https://media.giphy.com/media/T5jf3Pa89f5bG/giphy.gif') 50% 0 no-repeat fixed;*/
+	background: url('giphy.gif') 50% 0 no-repeat fixed;
 	background-size: cover;
-	color: #fff;
+	/*color: #fff;*/
 	height: 300px;
 	margin: 0;
 	padding: 350px 0;
@@ -128,8 +146,8 @@ h3 {
 	/*background-color: #fff;*/
 
 	/* my modification */
-	background: url('https://media.giphy.com/media/T5jf3Pa89f5bG/giphy.gif') 50% 0 no-repeat fixed;
-	/*background: url('giphy.gif') 50% 0 no-repeat fixed;*/
+	/*background: url('https://giphy.com/gifs/killer-mike-T5jf3Pa89f5bG') 50% 0 no-repeat fixed;*/
+	background: url('giphy.gif') 50% 0 no-repeat fixed;
 	background-size: cover;
 	/* my modification */
 
@@ -143,7 +161,7 @@ h3 {
 	width:100%;
 
 	/* my modification */
-	background: url('https://media.giphy.com/media/T5jf3Pa89f5bG/giphy.gif') 50% 0 no-repeat fixed;
+	/*background: url('https://media.giphy.com/media/T5jf3Pa89f5bG/giphy.gif') 50% 0 no-repeat fixed;*/
 	background: url('giphy.gif') 50% 0 no-repeat fixed;
 	/*background: url('https://ichef.bbci.co.uk/images/ic/960x540/p02ty7l6.jpg') 50% 0 no-repeat fixed;*/
 	/*background: url('https://pbs.twimg.com/profile_images/844615274783391744/zUP_lBoC.jpg') 50% 0 no-repeat fixed;*/
@@ -159,14 +177,14 @@ h3 {
 
 #slide6 {
 	width:100%;
-	background: url('https://media.giphy.com/media/T5jf3Pa89f5bG/giphy.gif') 50% 0 no-repeat fixed;
-	/*background: url('giphy.gif') 50% 0 no-repeat fixed;*/
+	/*background: url('https://media.giphy.com/media/T5jf3Pa89f5bG/giphy.gif') 50% 0 no-repeat fixed;*/
+	background: url('giphy.gif') 50% 0 no-repeat fixed;
 	background-size: cover;
 	color: #fff;
 	height: 600px;
 	/* height was originally 600px */
 	margin: 0;
-	padding: 200px 0;
+	padding: 300px 0;
 }
 
 /*.panel {
