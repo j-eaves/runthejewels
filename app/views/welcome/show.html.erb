@@ -1,0 +1,182 @@
+<!-- <h1>This is Work Sans</h1> -->
+<!-- <header id="header">
+  <div class="content">
+	  <div id="logo">
+		  Jon's Parallax Site
+	  </div>
+	  <nav id="nav">
+	  </nav>
+  </div>
+</header> -->
+
+<div id="slide1">
+	<div class="content">
+		<!-- <h2>RUN THE JEWELS</h2> -->
+		<div class="band_logo">	
+			<%= image_tag "RTJ_logo-1.png", :class => "style_image"   %>
+			<!-- <h3>Scroll Down</h3> -->
+		</div>
+	</div>
+</div>
+
+<!-- <div id="slide2">
+	<div class="content">
+		<div class="blurb-container">	
+			<h3 class="blurb">This is the slide2 blurb.</h3>
+			
+			<h4 class="name-dark">This is the text for slide2. The class for this h4 tag is "name-dark".</h4> 
+		</div>
+	</div>
+</div> -->
+
+<!-- <div id="slide3">
+	<div class="content">
+		<div class="blurb-container">	
+			<h3 class="blurb">This is the Image3 blurb. It should probably be gray, since it's on a black background. This is the Image3 blurb. It should probably be gray, since it's on a black background. This is the Image3 blurb. It should probably be gray, since it's on a black background. This is the Image3 blurb. It should probably be gray, since it's on a black background. This is the Image3 blurb. It should probably be gray, since it's on a black background.</h3>
+			<h4 class="name-dark">This is the text for slide3. Its class is also "name-dark", which has been applied to the h4 tag.</h4> 
+		</div>
+	</div>
+</div> -->
+
+<!-- <div id="slide4">
+	<div class="content">
+		<div class="blurb-container">	
+			<h3 class="blurb">This is the slide4 blurb.</h3>
+			<h4 class="name-dark">This is the text for slide2. The class for this h4 tag is "name-dark".</h4> 
+		</div>
+	</div>
+</div> -->
+
+
+<!-- <div id="slide5">
+	<div class="content">
+		<div class="blurb-container">	
+			<h3 class="blurb">This is the Image5 blurb. It should probably be gray, since it's on a black background. This is the Image3 blurb. It should probably be gray, since it's on a black background. This is the Image3 blurb. It should probably be gray, since it's on a black background. This is the Image3 blurb. It should probably be gray, since it's on a black background. This is the Image3 blurb. It should probably be gray, since it's on a black background.</h3>
+			<h4 class="name-dark">This is the text for slide5. Its class is also "name-dark", which has been applied to the h4 tag.</h4> 
+		</div>
+	</div>
+</div> -->
+
+<!-- <div id="slide-bottom">
+	<div class="content">
+		<div class="blurb-container">	
+			<h3 class="blurb"> This "slide" used to be slide4, but since it is at the bottom of the page, I will just create a new slide4 and place it in before this.  </h3>
+			<h4 class="name-dark">This is the text for slideBottom. I have added the class "name-dark" to this h4 tag.</h4> 
+		</div>
+		<div class="panel-container">
+			<div class="panel">
+				<h4 class="price-type">That's it.</h4>
+				<p>Here is some text. Now go do something</p>
+				<span class="price">$50/day</span>
+			</div>
+		</div>
+	</div>
+</div> -->
+
+
+<div id="slide3">
+	<div class="content">
+		<%= video_tag "_LOOP_BBnightAmb.mp4", :width => "100%", :controls => false  %>
+	</div>
+</div>
+
+<div id="slide3">
+	<div class="content">
+		<%= video_tag "RunTheJewels.mp4", :width => "100%", :controls => false%>
+	</div>
+</div>
+
+<div id="slide3">
+	<div class="content">
+		<%= video_tag "_____TheJewels.mp4", :width => "100%", :controls => false%>
+	</div>
+</div>
+
+<div id="slide3">
+	<div class="content">
+		<%= video_tag "FullComboComp_v002.mp4", :width => "100%", :controls => false%>
+	</div>
+</div>
+
+<div id="slide3">
+	<div class="content">
+		<%= video_tag "_ClimateChangeTheJewels.mp4", :width => "100%", :controls => false  %>
+	</div>
+</div>
+
+<div id="slide3">
+	<div class="content">
+		<%= video_tag "_FuckYouTheJewels.mp4", :width => "100%", :controls => false%>
+	</div>
+</div>
+
+<div id="slide3">
+	<div class="content">
+		<%= video_tag "_EnhanceTheJewels.mp4", :width => "100%", :controls => false%>
+	</div>
+</div>
+
+<div id="slide-bottom">
+	<div class="content">
+		<%= video_tag "_RapTheJewels.mp4", :width => "100%", :controls => false%>
+		<div class="panel-container">
+			<div class="panel">
+				<h4 class="price-type" style="font-family: Rajdhani">That's it.</h4>
+				<p style="font-family: Josefin Slab">Here is some text. Now go do something</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div id="slide6">
+	<div class="content">
+		
+	</div>
+</div>
+
+<script>
+	var videos = document.getElementsByTagName("video"),
+	fraction = 0.8;
+	function checkScroll() {
+
+	    for(var i = 0; i < videos.length; i++) {
+
+	        var video = videos[i];
+
+	        var x = video.offsetLeft, y = video.offsetTop, w = video.offsetWidth, h = video.offsetHeight, r = x + w, //right
+	            b = y + h, //bottom
+	            visibleX, visibleY, visible;
+
+	            visibleX = Math.max(0, Math.min(w, window.pageXOffset + window.innerWidth - x, r - window.pageXOffset));
+	            visibleY = Math.max(0, Math.min(h, window.pageYOffset + window.innerHeight - y, b - window.pageYOffset));
+
+	            visible = visibleX * visibleY / (w * h);
+
+	            if (visible > fraction) {
+	                video.play();
+	                video.addEventListener('ended', function() {
+	        			this.currentTime = 0;
+	        			this.play();
+	    			}, false);
+	            } else {
+	                video.pause();
+	            }
+
+	    }
+
+	}
+	// window.addEventListener('load', function(){
+	//     var newVideo = document.getElementById('videoElementId');
+	//     newVideo.addEventListener('ended', function() {
+	//         this.currentTime = 0;
+	//         this.play();
+	//     }, false);
+
+	//     newVideo.play();
+
+	// });
+
+	window.addEventListener('scroll', checkScroll, false);
+	window.addEventListener('resize', checkScroll, false);
+
+</script>

@@ -1,0 +1,192 @@
+
+body {
+	background-color: black;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+h1 {
+	font-family: "Work Sans";
+	font-weight: normal;
+	font-size: 55px;
+	text-align: center;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+}
+
+h2 {
+	font-family: "Comfortaa";
+	font-weight: normal;
+	font-size: 40px;
+	text-align: center;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+}
+
+h3 {
+	font-family: "Work Sans";
+	font-weight: 400;
+	color: black;
+	font-size: 16px;
+	text-align: center;
+	margin: 5px 0;
+	padding: 0;
+	z-index: 1;
+	position: relative;
+}
+
+/*h4 {
+	font-family: "Work Sans";
+	font-weight: 400;
+	color: black;
+	font-size: 16px;
+	text-align: center;
+	margin: 5px 0;
+	padding: 0;
+	z-index: 1;
+	position: relative;
+}*/
+
+.center {
+	    margin-left: auto;
+	    margin-right: auto;
+	    display: block
+	}
+
+#header {
+	background-color: gray;
+	opacity: 0.7;
+	width: 100%;
+	height: 80px;
+	position: fixed;
+	margin-top: 0px;
+}
+
+#logo {
+	font-family: "Abel";
+	font-size: 30px;
+	font-weight: bold;
+	margin-top: 20px;
+}
+
+.content {
+	margin: 0 auto;
+	width: 960px;
+}
+
+.blurb-container {
+	width: 800px;
+	margin: 0 auto;
+}
+
+.style_image {
+  /*border-right: 1px solid #000;*/
+  width: 400px;
+  margin-top: 50px;
+  margin-left: 280px;
+  margin-right: 280px;
+  /*resize: both;*/
+  /*overflow: auto;*/
+}
+
+.blurb {
+	font-family: "Rajdhani";
+	font-weight: 500;
+	font-size: 30px;
+	text-align: left;
+	margin: 50px auto;
+	color: gray;
+}
+
+.name, .name-dark {
+	font-family: "Play";
+	margin: 70px 0 0 75px;
+	font-size: 20px;
+}
+
+.name-dark {
+	color: gray;
+}
+
+#slide1 {
+	width:100%;
+	/*background: url('http://goseelivemusic.co/wp-content/uploads/2016/12/rtj3.png') 50% 0 no-repeat fixed;*/
+	/*background: url('https://media.giphy.com/media/T5jf3Pa89f5bG/giphy.gif') 50% 0 no-repeat fixed;*/
+	background: url('giphy.gif') 50% 0 no-repeat fixed;
+	background-size: cover;
+	color: #fff;
+	height: 300px;
+	margin: 0;
+	padding: 350px 0;
+}
+
+#slide2, #slide4, #slideBottom {
+	width:100%;
+	/*background-color: #fff;*/
+
+	/* my modification */
+	/*background: url('https://media.giphy.com/media/T5jf3Pa89f5bG/giphy.gif') 50% 0 no-repeat fixed;*/
+	background: url('giphy.gif') 50% 0 no-repeat fixed;
+	background-size: cover;
+	/* my modification */
+
+	color: #fff;
+	height: 600px;
+	margin: 0;
+	overflow: hidden;
+	padding: 300px 0;
+}
+#slide3, #slide5 {
+	width:100%;
+
+	/* my modification */
+	/*background: url('https://media.giphy.com/media/T5jf3Pa89f5bG/giphy.gif') 50% 0 no-repeat fixed;*/
+	background: url('giphy.gif') 50% 0 no-repeat fixed;
+	/*background: url('https://ichef.bbci.co.uk/images/ic/960x540/p02ty7l6.jpg') 50% 0 no-repeat fixed;*/
+	/*background: url('https://pbs.twimg.com/profile_images/844615274783391744/zUP_lBoC.jpg') 50% 0 no-repeat fixed;*/
+	background-size: cover;
+	/* my modification */
+
+	color: #fff;
+	height: 600px;
+	margin: 0;
+	padding: 300px 0;
+	/*padding: 200px 0 0 0;*/
+}
+
+#slide6 {
+	width:100%;
+	/*background: url('https://media.giphy.com/media/T5jf3Pa89f5bG/giphy.gif') 50% 0 no-repeat fixed;*/
+	background: url('giphy.gif') 50% 0 no-repeat fixed;
+	background-size: cover;
+	color: #fff;
+	height: 600px;
+	/* height was originally 600px */
+	margin: 0;
+	padding: 200px 0;
+}
+
+/*.panel {
+	border: 1px solid gray;
+	margin: 20px;
+	padding: 30px;
+}*/
+
+.price-type {
+	font-size: 20px;
+	font-weight: bold;
+
+}
+
+.panel>p {
+	font-size: 16px;
+	font-weight: normal;
+}
+
+.price {
+	font-size: 16px;
+	font-weight: bold;
+}
