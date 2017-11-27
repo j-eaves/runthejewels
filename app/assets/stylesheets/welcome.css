@@ -123,7 +123,7 @@ h3 {
 	padding: 350px 0;
 }
 
-#slide2, #slide4, #slideBottom {
+#slide2, #slide4, #slide-bottom {
 	width:100%;
 	/*background-color: #fff;*/
 
@@ -136,7 +136,7 @@ h3 {
 	color: #fff;
 	height: 600px;
 	margin: 0;
-	overflow: hidden;
+	/*overflow: hidden;*/
 	padding: 300px 0;
 }
 #slide3, #slide5 {
