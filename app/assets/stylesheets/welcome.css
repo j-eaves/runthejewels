@@ -34,7 +34,7 @@ h2 {
 h3 {
 	font-family: "Work Sans";
 	font-weight: 400;
-	color: black;
+	color: #fff;
 	font-size: 16px;
 	text-align: center;
 	margin: 5px 0;
@@ -42,18 +42,18 @@ h3 {
 	z-index: 1;
 	position: relative;
 }
-
-/*h4 {
+/* comment out the h4 for the real site*/
+h4 {
 	font-family: "Work Sans";
 	font-weight: 400;
-	color: black;
+	color: #fff;
 	font-size: 16px;
 	text-align: center;
 	margin: 5px 0;
 	padding: 0;
 	z-index: 1;
 	position: relative;
-}*/
+}
 
 .center {
 	    margin-left: auto;
@@ -101,9 +101,9 @@ h3 {
 	font-family: "Rajdhani";
 	font-weight: 500;
 	font-size: 30px;
-	text-align: left;
+	text-align: center;
 	margin: 50px auto;
-	color: gray;
+	color: #fff;
 }
 
 .name, .name-dark {
@@ -113,7 +113,7 @@ h3 {
 }
 
 .name-dark {
-	color: gray;
+	color: #fff;
 }
 
 #animated-gif-container {
@@ -125,15 +125,16 @@ h3 {
   width:100%;
   /*height:48px;*/    
   
-  background: #e0ffc7 url(https://media.giphy.com/media/T5jf3Pa89f5bG/giphy.gif) 50% 0 no-repeat center center;  
+  /*background: #e0ffc7 url(https://media.giphy.com/media/T5jf3Pa89f5bG/giphy.gif) 50% 0 no-repeat center center;  */
+  /*background: #e0ffc7 url(https://player.vimeo.com/video/243465072?autoplay=1&loop=1&title=0&byline=0&portrait=0) 50% 0 no-repeat center center;  */
 }
 
 #slide1 {
 	width:100%;
-	/*background: url('http://goseelivemusic.co/wp-content/uploads/2016/12/rtj3.png') 50% 0 no-repeat fixed;*/
+	background: url('https://player.vimeo.com/video/243465072?autoplay=1&loop=1&title=0&byline=0&portrait=0') 50% 0 no-repeat fixed;
 	/*background: url('https://giphy.com/gifs/killer-mike-T5jf3Pa89f5bG/fullscreen') 50% 0 no-repeat fixed;*/
 	/*background: url('https://media.giphy.com/media/T5jf3Pa89f5bG/giphy.gif') 50% 0 no-repeat fixed;*/
-	background: url('giphy.gif') 50% 0 no-repeat fixed;
+	/*background: url('giphy.gif') 50% 0 no-repeat fixed;*/
 	background-size: cover;
 	/*color: #fff;*/
 	height: 300px;
@@ -141,7 +142,7 @@ h3 {
 	padding: 350px 0;
 }
 
-#slide2, #slide4, #slide-bottom {
+#slide2, #slide4, #slide-pricing, #slide-bottom {
 	width:100%;
 	/*background-color: #fff;*/
 
@@ -186,12 +187,20 @@ h3 {
 	margin: 0;
 	padding: 300px 0;
 }
-
-/*.panel {
-	border: 1px solid gray;
+/*Comment out the slide-pricing for real site */
+#slide-pricing {
+	padding: 100px;
+	overflow: visible;
+	height: inherit;
+}
+/*Comment out .panel for real sight */
+.panel {
+	/*border: 1px solid gray;*/
+	border: 2px solid white;
 	margin: 20px;
 	padding: 30px;
-}*/
+	color: #fff;
+}
 
 .price-type {
 	font-size: 20px;
@@ -200,7 +209,7 @@ h3 {
 }
 
 .panel>p {
-	font-size: 16px;
+	font-size: 18px;
 	font-weight: normal;
 }
 

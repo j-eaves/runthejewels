@@ -4,4 +4,12 @@ class WelcomeController < ApplicationController
     render 'show.html.erb'
   end
 
+  def show2
+    render 'show2.html.erb'
+  end
+
+  def show3
+    render 'show3.html.erb'
+  end
+
 end
